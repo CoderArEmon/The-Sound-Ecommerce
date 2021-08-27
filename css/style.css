@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*** Start Header Section  ***/
+.header-top{
+    background-color: #00724a;
+}
+.header-top i{
+    font-size: 1.25rem;
+    padding: 0.75rem 0.5rem 0.5rem 0.5rem; 
+    transition: 0.5s;
+}
+.header-top i:hover{
+    color: #fff;
+}
+.header-top p{
+    font-size: 1.25rem;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    margin-bottom: 0;
+}
+/***  Start Navbar Section  ***/
+.navbar{
+    padding: 1.875rem 0;
+}
+.login{
+    background-color: #00724a;
+    padding: 0.5rem 1.875rem;
+    font-size: 1.125rem;
+    transition: 0.3s;
+}
+.login:hover , .login.active_btn{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+    padding: 0.625rem 1.875rem;
+    font-size: 1.125rem;
+    transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #00724a;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #00724a;
+}
+/***  End Navbar Section  ***/
+/*** End Header Section  ***/
+
+/***   Start Slider Section  ***/
+.carousel_content{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 40%;
+}
+.carousel_content span{
+    font-size: 5.313rem;
+    line-height: 4.875rem;
+    color: #fff;
+}
+.carousel_content p{
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0.938rem 0;
+    color: #fff;
+}
+.carousel_content a{
+    background: green;
+    color: #fff;
+    padding: 0.875rem 2.5rem;
+    border-top-left-radius: 2.188rem;
+    border-bottom-left-radius: 2.188rem;
+    border-bottom-right-radius: 2.188rem;
+    border-top-right-radius: 0px;
+    transition: 0.7s;
+}
+.carousel_content a:hover{
+    background: #000;
+    color: #fff;
+}
+/***   End Slider Section  ***/
+
+/***   Start Service Section  ***/
+.service_header{
+    padding: 5rem 0;
+}
+.service_header h2{
+    font-size: 3.125rem;
+    text-transform: uppercase;
+    color: #070500;
+}
+.service_line{
+    width: 6.25rem;
+    height: 0.5rem;
+    background-color: #000;
+    margin: 0 auto;
+}
+.service_header p{
+    font-size: 1.75rem;
+    color: #070500;
+    padding-top: 1.563rem;
+}
+.service_list{
+    background-color: #00724a;
+}
+.service_item{
+    background-color: #fff;
+    box-shadow: 0rem 0.313rem 0.75rem #a3a3a3;
+    padding: 3.125rem 0;
+}
+.service_item h4, .service_p_item h4{
+    font-size: 1.5rem;
+    color: #070500;
+    line-height: 2.813rem;
+}
+.service_item p, .service_p_item p{
+    font-size: 1.063rem;
+    color: #0d0c0a;
+    line-height: 1.75rem;
+}
+.service_item a{
+    font-size: 1.25rem;
+    color: #0d0c0a;
+    border: 1px solid #00724a;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0;
+    
+    transition: 0.8s;
+}
+.service_item a:hover{
+    background-color: #00724a;
+    color: #fff;
+}
+/***   End Service Section  ***/
+
+/***   Start Service Section  ***/
+.process-box{
+    box-shadow: 0rem 6px 7px #333;
+    padding: 0.375rem 1.25rem;
+}
+/***   End Service Section  ***/
+
+/***   Start Service Section  ***/
+.product_list{
+    box-shadow: 0rem 0.625rem 1.625rem #000;
+    padding: 4.375rem 0;
+}
+.product_box{
+    background: #ddd;
+    padding: 1.563rem;
+    transition: 0.5s;
+}
+.product_box:hover{
+    background-color: #00724a;
+}
+.product_box h4{
+    font-size: 1.063rem;
+    font-weight: 500;
+    padding-top: 1.25rem;
+}
+.product_box .price{
+    font-size: 1.563rem;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.product_box .price:hover{
+    color: #fff;
+}
+.product .product-item {
+    margin-bottom: 30px;
+}
+  
+.product #product-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+  
+.product #product-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+  
+.product #product-flters li:hover, .product #product-flters li.filter-active {
+    color: #fff;
+    background: #00724a;
+}
+  
+.product #product-flters li:last-child {
+    margin-right: 0;
+}
+/***   End Service Section  ***/
+
+/***  Start Client Section  ***/
+#client{
+    background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255,0.6)), url(../images/client_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.testimonials{
+    padding-bottom: 6.25rem;
+}
+.owl-carousel .owl-item img{
+    display: inline-block;
+}
+  
+.testimonials .testimonial-item .testimonial-img {
+    width: 6.25rem;
+    border-radius: 50%;
+    border: 0.25rem solid #fff;
+}
+
+  
+.testimonials .testimonial-item p {
+    font-style: normal;
+}
+  
+.testimonial-item .author{
+    font-size: 1rem !important;
+    color: #212529 !important;
+    font-weight: 400;
+    font-style: normal !important;
+}
+.testimonials .owl-nav, .testimonials .owl-dots {
+    margin-top: 0.313rem;
+    text-align: left;
+}
+  
+.testimonials .owl-dot {
+    display: inline-block;
+    margin: 0 0.313rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 1.25rem;
+    opacity: 0.5;
+    transition: 0.7s;
+    background-color: #000 !important;
+}
+  
+.testimonials .owl-dot.active {
+    background-color: #00724a !important;
+    width: 1.25rem;
+    height: 1.25rem;
+    opacity: 1;
+}
+  
+@media (min-width: 992px) {
+    .testimonials .testimonial-item p {
+      width: 100%;
+      font-size: 1rem !important;
+    }
+}
+
+/*** End Client Section  ***/
+
+/*** Start Quote Section  ***/
+#quote{
+    padding-top: 6.25rem;
+}
+.quote_content{
+    background-color: #00724a;
+    padding: 2.125rem;
+}
+.quote_content h3{
+    color: #fff;
+    font-size: 1.938rem;
+    font-weight: 700;
+}
+.quote_content p{
+    font-size: 1.375rem;
+    font-weight: 300;
+    color: #010101;
+}
+.quote_content a{
+    font-size: 1.938rem;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 0.625rem 3.5rem;
+    border-radius: 2.875rem;
+    transition: 0.5s;
+}
+.quote_content a:hover{
+    background-color: #fff;
+    color: #00724a;
+}
+/*** End Quote Section  ***/
+
+/*** Start Quote Section  ***/
+#footer{
+    background-color: #1b1b1b;
+    padding: 5rem 0;
+}
+#footer h2{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+#footer span a, #footer p{
+    font-size: 1.063rem;
+    color: #fff;
+    line-height: 1.688rem;
+    transition: 0.5s;
+}
+
+#footer span a:hover{
+    color: #00724a;
+}
+
+.footer_icon a{
+    width: 3.125rem;
+    height: 3.125rem;
+    display: inline-block;
+    background: #00724a;
+    border-radius: 3rem;
+    padding: 0.75rem;
+    font-size: 1.25rem !important;
+    margin-right: 1.25rem;
+    color: #000;
+}
+.footer_icon a:hover{
+    color: #00724a;
+    background: #010101;
+}
+/*** End Quote Section  ***/
+
+/***  Start Copyright Section  ***/
+#copyright{
+    background-color: #00724a;
+    padding: 1.25rem 0rem 0.25rem;
+}
+
+#copyright p{
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #fbfbfb;
+}
+
+/***  End Copyright Section  ***/
+
+/****   Start Banner Section  ****/
+#banner{
+    background-color: #00724a;
+    padding: 80px 0;
+}
+#banner h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase; 
+    color: #fff;
+}
+/****   End Banner Section  ****/
+
+/****   Start About Section  ****/
+#about{
+    padding: 100px 0;
+}
+#about h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#about p{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* Start Counter Section */
+#counter{
+    background-color: #00724a;
+    padding: 60px 0;
+}
+.single-coutnerup .count-num {
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+  
+.single-coutnerup {
+      text-align: center;
+}
+  
+.single-coutnerup .title {
+      font-size: 20px;
+      font-weight: 600;
+}
+  
+.plus {
+    font-size: 63px;
+    color: #fff;
+}
+/****   End About Section  ****/
+
+/****   Start Blog Section  ****/
+#blog{
+    padding-bottom: 80px;
+}
+.card{
+    box-shadow: 0px 3px 6px #333;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.card:hover{
+    box-shadow: 0px 12px 14px #333;
+    transform: scale(1.04);
+}
+.card-title{
+    font-size: 22px;
+    font-weight: 500;
+    color: #060606;
+    margin-bottom: 5px;
+}
+#blog span{
+    color: #e61414;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #7b7a7a;
+    padding-top: 10px;
+}
+/****   End Blog Section  ****/
+
+/****   Start Form Section  ****/
+#form{
+    padding: 80px 0;
+}
+.form-control{
+    padding: 1.5rem;
+    border: 2px solid #00724a;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #00724a;
+    outline: 0;
+    box-shadow: none;
+}
+.send{
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 45px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.send:hover{
+    background-color: #00724a;
+    color: #fff;
+}
+/****   End Form Section  ****/
+
+/* Start LogIn Section */
+#login{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #0a0a0a;
+    padding: 80px 0;
+}
+#login .main-div{
+    position: relative;
+    margin: 0px auto;
+    width: 380px;
+}
+#login .item {
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #282828;
+    cursor: pointer;
+}
+#login .button {
+    color: #8e8f91;
+    padding: 0px 8px 22px 8px;
+    font-weight: 600;
+    font-size: 22px;
+}
+#login .reg-para{
+    display: none;
+}
+#login #reg-form{
+    display: none;
+}
+
+#login .page{
+    text-align: center;
+    border: 2px solid #282828;
+    border-radius: 8px;
+    padding-top: 18px;
+    height: 450px;
+    background-color: #121212;
+}
+#login #login-form, #reg-form{
+    padding: 25px;
+}
+#login p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #747474;
+    margin-bottom: 35px;
+}
+#login span {
+    color: #00724a;
+}
+
+#login input[type="text"], #login input[type= "password"], #login input[type="email"]{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    padding: 0 38px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+}
+#login input[type="text"]{
+    margin-top: 40px;
+}
+#login input[type= "password"]{
+    margin-top: 20px;
+}
+#login input[type= "email"]{
+    margin-top: 20px;
+}
+#login input:focus{
+    outline: none;
+}
+#login i{
+    position: absolute;
+    left: 38px;
+    font-size: 22px;
+    color: #808080;
+}
+#login .checkbox{
+    text-align: left;
+    margin: 10px 0;
+}
+#login .check{
+    color: #60605f;
+    margin-left: 6px;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+#login #check{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+#login .submit{
+    padding: 10px 32px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #00724a;
+    background-color: #00724a;
+    font-weight: 600;
+    color: #000;
+    margin-top: 38px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#login .submit:hover{
+    color: #fff;
+}
+#login .active {
+    border-bottom: 3px solid #00724a;
+    color: #00724a;
+}
+
+/* End LogIn Section */
+

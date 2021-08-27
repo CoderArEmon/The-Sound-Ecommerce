@@ -1,0 +1,83 @@
+@media(max-width: 1150px){
+    .carousel_content{
+        top: 9% !important;
+    }
+}
+
+@media(max-width: 1020px){
+    .carousel_content{
+        top: 4% !important;
+    }
+}
+
+@media(max-width: 963px){
+    .carousel_content span{
+        font-size: 4.313rem !important;
+        line-height: 3.875rem !important;
+    }
+    .carousel_content a{
+        padding: 5px 10px !important;
+    }
+}
+@media(max-width: 840px){
+    .carousel_content{
+        width: 70% !important;
+    }
+    .carousel_content span{
+        font-size: 3.313rem !important;
+        line-height: 2.875rem !important;
+    }
+}
+
+@media(max-width: 767px){
+    .header-top span{
+        display: block !important;
+        text-align: center;
+    }
+    .header-top p{
+        float: left !important;
+        text-align: center !important;
+    }
+}
+
+@media(max-width: 710px){
+    .carousel_content{
+        top: 8% !important;
+    }
+    .carousel_content span{
+        font-size: 2.313rem !important;
+        line-height: 2.5rem !important;
+    }
+}
+
+@media(max-width: 675px){
+    .carousel_content{
+        top: 0% !important;
+    }
+}
+
+@media(max-width: 617px){
+    .latest{
+        display: inline-block !important;
+    }
+    .carousel_content{
+        top: 16% !important;
+    }
+}
+
+@media(max-width: 566px){
+    .carousel_content span{
+        font-size: 1.8rem !important;
+    }
+}
+@media(max-width: 480px){
+    .carousel_content{
+        display: none !important;
+    }
+}
+
+@media(max-width: 402px){
+    #login .main-div{
+        width: 320px !important;
+    }
+}
